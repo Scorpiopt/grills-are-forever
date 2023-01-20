@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "nsJSyzW0Icwihc5Fmte3OwUBAq0b2HmdnyxF/19N3p1vmaQEZa1fbl8BnraKsa+F50k4HkKxaglDJGG+nn6Y4A==",
+  "success": true,
+  "projectFilePath": "c:\\Games\\Rimworld\\Mods\\Grills are forever\\1.2\\Source\\GrillsAreForever\\GrillsAreForever.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Vova\\.nuget\\packages\\krafs.rimworld.ref\\1.2.2905\\krafs.rimworld.ref.1.2.2905.nupkg.sha512",
+    "C:\\Users\\Vova\\.nuget\\packages\\lib.harmony\\2.1.0\\lib.harmony.2.1.0.nupkg.sha512"
+  ],
+  "logs": []
+}

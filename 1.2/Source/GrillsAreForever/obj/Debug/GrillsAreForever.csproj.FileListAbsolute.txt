@@ -1,0 +1,5 @@
+c:\Games\Rimworld\Mods\Grills are forever\1.2\Assemblies\GrillsAreForever.dll
+c:\Games\Rimworld\Mods\Grills are forever\1.2\Source\GrillsAreForever\obj\Debug\GrillsAreForever.csproj.AssemblyReference.cache
+c:\Games\Rimworld\Mods\Grills are forever\1.2\Source\GrillsAreForever\obj\Debug\GrillsAreForever.csproj.CoreCompileInputs.cache
+c:\Games\Rimworld\Mods\Grills are forever\1.2\Source\GrillsAreForever\obj\Debug\GrillsAreForever.csproj.CopyComplete
+c:\Games\Rimworld\Mods\Grills are forever\1.2\Source\GrillsAreForever\obj\Debug\GrillsAreForever.dll
