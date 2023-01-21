@@ -120,7 +120,6 @@ namespace GrillsAreForever
     {
         public static bool Prefix(CompRottable __instance, ref string __result)
         {
-            Log.Message("__instance.parent.StoringThing(): " + __instance.parent.StoringThing());
             if (__instance.parent.StoringThing() is BBQ_Storage storage && storage.compPowerTrader.PowerOn)
             {
                 __result = CompInspectStringExtra(__instance);
