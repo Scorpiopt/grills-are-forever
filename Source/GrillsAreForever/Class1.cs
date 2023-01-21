@@ -114,6 +114,43 @@ namespace GrillsAreForever
             }
         }
     }
+
+    [HarmonyPatch(typeof(CompRottable), "CompInspectStringExtra")]
+    public static class CompInspectStringExtra_Patch
+    {
+        public static bool Prefix(CompRottable __instance, ref string __result)
+        {
+            Log.Message("__instance.parent.StoringThing(): " + __instance.parent.StoringThing());
+            if (__instance.parent.StoringThing() is BBQ_Storage storage && storage.compPowerTrader.PowerOn)
+            {
+                __result = CompInspectStringExtra(__instance);
+                return false;
+            }
+            return true;
+        }
+
+        public static string CompInspectStringExtra(CompRottable __instance)
+        {
+            if (!__instance.Active)
+            {
+                return null;
+            }
+            StringBuilder stringBuilder = new StringBuilder();
+            switch (__instance.Stage)
+            {
+                case RotStage.Fresh:
+                    stringBuilder.Append("RotStateFresh".Translate() + ".");
+                    break;
+                case RotStage.Rotting:
+                    stringBuilder.Append("RotStateRotting".Translate() + ".");
+                    break;
+                case RotStage.Dessicated:
+                    stringBuilder.Append("RotStateDessicated".Translate() + ".");
+                    break;
+            }
+            return stringBuilder.ToString();
+        }
+    }
     public class BBQ_Storage : Building_Storage
     {
         public CompPowerTrader compPowerTrader;

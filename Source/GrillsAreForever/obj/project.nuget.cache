@@ -1,12 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "xGm/rjbup+OpjADpJoVkyh1EB+SW0ofGaj7SdHNRPLfcn9m1ejyGnlZJcL232jlsrC5vH9PBAeaFuVBeiDGcFw==",
+  "dgSpecHash": "3HaUUpmcO/UkI2EAgkkVMQyXlZMlM41Qt/xirxrDdQxUpKfx8bnh4ld9l8bIywjVArSb2gOJ5FYfnEvNyZGC4A==",
   "success": true,
-  "projectFilePath": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Grills are forever\\1.3\\Source\\GrillsAreForever\\GrillsAreForever.csproj",
+  "projectFilePath": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\grills-are-forever\\Source\\GrillsAreForever\\GrillsAreForever.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Vova\\.nuget\\packages\\krafs.publicizer\\1.0.0\\krafs.publicizer.1.0.0.nupkg.sha512",
-    "C:\\Users\\Vova\\.nuget\\packages\\krafs.rimworld.ref\\1.3.3076\\krafs.rimworld.ref.1.3.3076.nupkg.sha512",
-    "C:\\Users\\Vova\\.nuget\\packages\\lib.harmony\\2.1.0\\lib.harmony.2.1.0.nupkg.sha512"
+    "C:\\Users\\Vova\\.nuget\\packages\\krafs.publicizer\\2.2.0\\krafs.publicizer.2.2.0.nupkg.sha512",
+    "C:\\Users\\Vova\\.nuget\\packages\\krafs.rimworld.ref\\1.4.3613\\krafs.rimworld.ref.1.4.3613.nupkg.sha512",
+    "C:\\Users\\Vova\\.nuget\\packages\\lib.harmony\\2.2.2\\lib.harmony.2.2.2.nupkg.sha512"
   ],
   "logs": []
 }
